@@ -149,6 +149,7 @@
       text-align: center;
     }
   </style>
+     <script></script>
  </div>
 </section><br><br><br><br>
  <section class="skilled">
@@ -1402,8 +1403,8 @@ margin-top:0%;
 
   
   </style>
-  <script>const dynamicText = document.getElementById('dynamic-text');
-        const roles = ['Java Developer', 'Web Developer', 'SDE' , 'Data Scientist'];
+   <script>const dynamicText = document.getElementById('dynamic-text');
+        const roles = ['Frontend Developer', 'Web Developer', 'SDE'];
         let roleIndex = 0;
         let charIndex = 0;
 
@@ -1432,7 +1433,7 @@ const slides = document.querySelectorAll('.slide');
   let currentIndex = 0;
 
   function updateSliderPosition() {
-    slider.style.transform = translateX(-${currentIndex * 100}%);
+    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
   }
 
   prevBtn.addEventListener('click', () => {
